@@ -11,9 +11,7 @@ Trie is labeled tree which is used to store and search dictionary. Trie is abstr
 
 LOUDS can be used to implement Trie by 1) associating with character labels and 2) storing terminal flags to identify the end of words in the tree. In my experiment, matsu-trie is 7 times smaller than pointer-based implementation of trie, and 50% slower than the baseline.
 
-How does it work?
------------
-<iframe src="http://www.slideshare.net/nokuno/slideshelf" width="760px" height="570px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
+If you are interested in how LOUDS works, [Please read the slides](http://www.slideshare.net/nokuno/louds-succinct-data-structure).
 
 Performance
 -----------
